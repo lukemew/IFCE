@@ -6,21 +6,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
-body {
-   height: 2000px;
- 
-}
-
 .background {
-    background-image: url(pexels-polina-tankilevitch-4109234.jpg);
+    background-image: url(./images/pexels-polina-tankilevitch-4109234.jpg);
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 250vh;
- 
+    height: 270vh;
 }
 
 .logo img {
@@ -28,12 +20,6 @@ body {
     height: auto;
     box-shadow: 5px 5px 5px black;
     border-radius: 5px;
-}
-
-.links {
-    font-size: large;
-    margin-top: 100px;
-    margin-right: 500px;
 }
 
 header {
@@ -50,38 +36,8 @@ h1 {
     padding: 10px 0px;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    gap: 3rem;
-}
-
-ul li {
-    list-style: none;
-}
-
-ul li a {
-    text-decoration: none;
-    color: white;
-    transition: 0.3s;
-}
-
-ul li a:hover {
-    text-transform: capitalize;
-    color: rgba(255, 255, 0, 0.589);
-    border-bottom: 1px solid white;
-}
-
-hr {
-    color: black;
-    box-shadow: 1px 4px 4px black;
-}
-
-.C-Tittle {
-    margin-left: 20rem;
-    margin-right: 20rem;
-    margin-top: 10rem;
-    margin: 10rem 20rem 10rem;
+.c-title {
+    margin: 5rem 20rem 10rem;
     padding-left: 1rem;
     background-color: rgba(0, 0, 0, 0.575);
     border-radius: 10px;
@@ -94,23 +50,17 @@ hr {
     margin-top: 70px;
 }
 
-.C-Tittle h1{
+.c-title h1{
     color: rgb(245, 221, 3);
     font-size: 4.8rem;
     text-align: center;
-}
-
-.C-Tittle p {
-    font-size: 1.4rem;
-    font-weight: 100;
-    
 }
 
 .container {
     width: 100%;
     height: 1424px;
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: rgba(0, 0, 0, 0.877);
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
@@ -143,20 +93,14 @@ hr {
     row-gap: 80px;
 }
 
-
 footer {
     border: 2px solid black;
     background-color: yellow;
-    padding: 5rem;
-    justify-content: center;
-    max-width: 100%;
-    box-shadow: 5px 5px 5px black;
+    padding: 2rem;
 }
-
 
 .direitos {
     text-align: center;
-    justify-content: center;
 }
 
 
