@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/starfall-gif-20.gif);
+    background-size: cover;
+    
+}
+
+main {
+    margin: 80px auto;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+    width: 700px;
+    height: 700px;
+    border: 1px solid aqua;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 30%;
+    border-top: 1px solid aqua;
+}
+
+section {
+    color: aqua;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    font-family:'Courier New', Courier, monospace
+}
+
+div {
+    margin-top: 40px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div img {
+    flex: 1;
+    max-width: 35%;   
+}
+
+@media (max-width: 768px){
+    div{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    }
+    main{
+        width: 80%;
+        height: 100%;
+        padding-bottom: 10px;
+    }
+    div img{
+        width: 100%;
+    }
+}

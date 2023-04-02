@@ -6,7 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.background {
+body {
     background-image: url(./images/pexels-polina-tankilevitch-4109234.jpg);
     background-size: cover;
     width: 100%;
@@ -119,7 +119,7 @@ footer > h2 {
 
 @media (max-width: 320px) {
     main, #produtos, .produto > img{
-        margin: auto;
+        margin: 0 auto;
         width: 100%;
         height: 100%;
     }
@@ -141,7 +141,6 @@ footer > h2 {
         margin: auto;
        
     } 
-    
     .container{
         width: 50%;
     }
@@ -158,7 +157,6 @@ footer > h2 {
         width: 90%;
         height: 90%;
     } 
-    
     .container {
         width: 100%;
     }
