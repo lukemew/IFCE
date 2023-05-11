@@ -1,0 +1,38 @@
+:root{
+    --preto: #000000;
+    --vermelho: #ff0000;
+    --branco: #ffffff;
+}
+
+body {
+    background: linear-gradient(to right, #000000, #2524245d);
+}
+
+.div-facilidades {
+    width: 325px;
+}
+
+.verde {
+    color: #DAFF01;
+}
+
+.see-more {
+    background: #9353FF;
+}
+
+
+.redcolor {
+    color: var(--vermelho)
+}
+
+.background {
+    background-color: #ff0000;
+}
+
+.whitecolor {
+    color: #fff;
+}
+
+.titulo {
+    font-family: 'Potta One', cursive;
+}
