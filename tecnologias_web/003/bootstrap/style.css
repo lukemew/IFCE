@@ -1,11 +1,28 @@
+@import url(./styles/header.css);
+@import url(./styles/carrossel.css);
+@import url(./styles/redes-sociais.css);
+
 :root{
     --preto: #000000;
     --vermelho: #ff0000;
     --branco: #ffffff;
+    --laranja: #FA6111;
+    --laranja-fraco: #A44513;
+    --marrom: #140A05;
+    --fonte-principal: 'Encode Sans SC', sans-serif;
+    --fonte-secundaria: 'Inter', sans-serif;
 }
+
+
 
 body {
     background: linear-gradient(to right, #000000, #2524245d);
+}
+
+.instagram {
+    background: url(./assets/dark-wood.jpg);
+    background-size: cover;
+
 }
 
 .div-facilidades {
@@ -21,8 +38,8 @@ body {
 }
 
 
-.redcolor {
-    color: var(--vermelho)
+.orangecolor {
+    color: var(--laranja)
 }
 
 .background {

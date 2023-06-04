@@ -1,0 +1,37 @@
+.cabecalho {
+    background: var(--marrom);
+}
+
+.cabecalho__items {
+    border-bottom: 1px solid var(--laranja);
+    display: flex;
+    justify-content: center;
+    padding: 1rem 8rem;
+}
+
+.cabecalho-imagem {
+    width: 25%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-content: center;
+}
+
+.menu-abas {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.item-menu {
+    font-size: 1.1rem;
+    color: var(--laranja);
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+}
+
+.item-menu:hover{
+    color: var(--laranja-fraco);
+    transition: 0.2s;
+}
