@@ -1,6 +1,7 @@
 @import url(./styles/header.css);
 @import url(./styles/carrossel.css);
 @import url(./styles/redes-sociais.css);
+@import url(./styles/horarios.css);
 
 :root{
     --preto: #000000;
@@ -9,6 +10,7 @@
     --laranja: #FA6111;
     --laranja-fraco: #A44513;
     --marrom: #140A05;
+    --cinza-transparente: rgba(26, 25, 25, 0.85);
     --fonte-principal: 'Encode Sans SC', sans-serif;
     --fonte-secundaria: 'Inter', sans-serif;
 }

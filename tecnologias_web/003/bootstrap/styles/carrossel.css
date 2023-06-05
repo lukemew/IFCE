@@ -1,3 +1,15 @@
 .carrossel__imagem {
-    filter: brightness(50%);
+    filter: brightness(75%);
+}
+
+.carousel {
+    height: 700px;
+}
+
+.carousel-item {
+    height: 700px;
+}
+
+.carousel-item > img {
+    height: 700px;
 }
