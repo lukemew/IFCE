@@ -2,6 +2,9 @@
 @import url(./styles/carrossel.css);
 @import url(./styles/redes-sociais.css);
 @import url(./styles/horarios.css);
+@import url(./styles/instagram.css);
+@import url(./styles/eventos.css);
+@import url(./styles/footer.css);
 
 :root{
     --preto: #000000;
@@ -15,43 +18,6 @@
     --fonte-secundaria: 'Inter', sans-serif;
 }
 
-
-
 body {
     background: linear-gradient(to right, #000000, #2524245d);
-}
-
-.instagram {
-    background: url(./assets/dark-wood.jpg);
-    background-size: cover;
-
-}
-
-.div-facilidades {
-    width: 325px;
-}
-
-.verde {
-    color: #DAFF01;
-}
-
-.see-more {
-    background: #9353FF;
-}
-
-
-.orangecolor {
-    color: var(--laranja)
-}
-
-.background {
-    background-color: #ff0000;
-}
-
-.whitecolor {
-    color: #fff;
-}
-
-.titulo {
-    font-family: 'Potta One', cursive;
 }

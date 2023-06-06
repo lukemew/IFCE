@@ -1,0 +1,17 @@
+.eventos {
+    background: url(../assets/dark-wood.jpg);
+}
+
+.eventos__titulo {
+    font-family: var(--fonte-principal);
+    font-weight: 800;
+    color: var(--laranja);
+}
+
+.eventos__container {
+    width: 65%;
+}
+
+.card-title {
+    font-weight: bold;
+}
