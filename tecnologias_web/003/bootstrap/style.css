@@ -8,6 +8,8 @@
 
 @import url(./styles/sobre.css);
 
+@import url(./styles/contato.css);
+
 :root{
     --preto: #000000;
     --vermelho: #ff0000;
