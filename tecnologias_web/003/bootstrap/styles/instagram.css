@@ -21,8 +21,19 @@
     font-size: 2rem;
 }
 
+.instagram__cards .card {
+    border: 2px solid var(--laranja);
+}
+
 .instagram__container__link {
     text-decoration: none;
+    background-color: var(--preto-transparente);
+    border-radius: 40px;
+}
+
+.instagram__container__link:hover {
+    transition: 0.8s;
+    background-color: var(--cinza-transparente);
 }
 
 .instagram__container-botao {

@@ -6,6 +6,8 @@
 @import url(./styles/eventos.css);
 @import url(./styles/footer.css);
 
+@import url(./styles/sobre.css);
+
 :root{
     --preto: #000000;
     --vermelho: #ff0000;
@@ -14,8 +16,11 @@
     --laranja-fraco: #A44513;
     --marrom: #140A05;
     --cinza-transparente: rgba(26, 25, 25, 0.85);
+    --laranja-transparente: rgba(248, 114, 4, 0.062);
+    --preto-transparente: rgba(0, 0, 0, 0.5);
     --fonte-principal: 'Encode Sans SC', sans-serif;
     --fonte-secundaria: 'Inter', sans-serif;
+    --fonte-terciaria: 'Expletus Sans', cursive;
 }
 
 body {

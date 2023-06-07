@@ -1,4 +1,24 @@
 .rodape {
     background: var(--cinza-transparente);
     color: var(--laranja);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
 }
+
+.rodape__endereço {
+    padding: 0 3rem;
+}
+
+.rodape__endereço-texto {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.rodape-icone > img {
+    width: 7%;
+    margin: 0 1.5rem;
+}
+
