@@ -116,3 +116,52 @@
     width: 70%;
     border: solid 1px var(--laranja);
 }
+
+
+@media screen and (max-width: 1024px) {
+    .horarios__main {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .container__horarios {
+        width: 100%;
+        border: none;
+    }
+
+    .container-imagem {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .horarios__main {
+        width: 100%;
+    }
+
+
+    .horarios__primeira-linha, .horarios__segunda-linha, .horarios__terceira-linha {
+        border: none;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 0;
+        margin: rem;
+    }
+
+    .container__horarios h3 {
+        font-size: 1rem;
+
+    }
+
+    .container__horarios p {
+        margin-bottom: .5rem;
+    }
+
+    .coluna__icones{
+        display: none;
+    }
+
+}

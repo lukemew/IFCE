@@ -7,6 +7,11 @@
     padding: 3rem 0;
 }
 
+.rodape__imagem {
+    width: 25%;
+    margin: 0 1.5rem;
+}
+
 .rodape__endereço {
     padding: 0 3rem;
 }
@@ -22,3 +27,21 @@
     margin: 0 1.5rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .rodape-icone > img {
+        width: 16%;
+        
+    }
+
+    .rodape__imagem{
+        width: 75% ;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+    .rodape-icone, .rodape__imagem, .logo-rodape__link {
+        display: none;
+    }
+
+}

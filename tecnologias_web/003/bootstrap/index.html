@@ -19,7 +19,26 @@
 <body class="bg-black">
 
     <header class="cabecalho">
-        <div class="cabecalho__items">
+            <div class="container__menu">
+            <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu" class="container__rotulo">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="index.html" class="item-menu">Home</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="item-menu">Cardápio</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="contact.html" class="item-menu">Contatos</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="about.html" class="item-menu">Sobre</a>
+                    </li>
+                </ul>    
+            </div>
             <div class="cabecalho__logo">
                 <a href="index.html" class="logo__link">
                     <img class="cabecalho-imagem" src="./assets/rancho-logo.png" alt="logo do rancho gastrobar">
@@ -33,7 +52,6 @@
                     <a href="about.html" class="item-menu">Sobre</a>
                 </nav>
             </div>
-        </div>
     </header>
 
     <section class="carrossel">
@@ -105,7 +123,7 @@
     </section>
 
     <section class="horarios">
-        <div class="container horarios__main m-5 p-4">
+        <div class=" horarios__main m-5 p-4">
             <div class="container__horarios">
                 <div class="horarios__titulo">
                     <h2 class="titulo-texto">Horário de Funcionamento</h2>
@@ -254,8 +272,8 @@
         
         <footer class="rodape text-center">
             <div class="rodape__logo">
-                <a href="index.html" class="logo__link">
-                    <img class="cabecalho-imagem" src="./assets/rancho-logo.png" alt="logo do rancho gastrobar">
+                <a href="index.html" class="logo-rodape__link">
+                    <img class="rodape__imagem" src="./assets/rancho-logo.png" alt="logo do rancho gastrobar">
                 </a>
             </div>
             <div class="rodape__endereço">

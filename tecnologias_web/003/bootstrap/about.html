@@ -17,22 +17,42 @@
 
 <body class="sobre">
     <header class="cabecalho">
-        <div class="cabecalho__items">
-            <div class="cabecalho__logo">
-                <a href="index.html" class="logo__link">
-                    <img class="cabecalho-imagem" src="./assets/rancho-logo.png" alt="logo do rancho gastrobar">
-                </a>
-            </div>
-            <div class="cabecalho__menu">
-                <nav class="menu-abas">
+        <div class="container__menu">
+        <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
                     <a href="index.html" class="item-menu">Home</a>
+                </li>
+                <li class="lista-menu__item">
                     <a href="#" class="item-menu">Cardápio</a>
+                </li>
+                <li class="lista-menu__item">
                     <a href="contact.html" class="item-menu">Contatos</a>
+                </li>
+                <li class="lista-menu__item">
                     <a href="about.html" class="item-menu">Sobre</a>
-                </nav>
-            </div>
+                </li>
+            </ul>    
+        </div>
+        <div class="cabecalho__logo">
+            <a href="index.html" class="logo__link">
+                <img class="cabecalho-imagem" src="./assets/rancho-logo.png" alt="logo do rancho gastrobar">
+            </a>
+        </div>
+        <div class="cabecalho__menu">
+            <nav class="menu-abas">
+                <a href="index.html" class="item-menu">Home</a>
+                <a href="#" class="item-menu">Cardápio</a>
+                <a href="contact.html" class="item-menu">Contatos</a>
+                <a href="about.html" class="item-menu">Sobre</a>
+            </nav>
         </div>
     </header>
+
 
     <section class="sobre__rancho">
         <h1 class="sobre-titulo">SOBRE O RANCHO</h1>
@@ -58,8 +78,8 @@
 
     <footer class="rodape text-center">
         <div class="rodape__logo">
-            <a href="index.html" class="logo__link">
-                <img class="cabecalho-imagem" src="./assets/rancho-logo.png" alt="logo do rancho gastrobar">
+            <a href="index.html" class="logo-rodape__link">
+                <img class="rodape__imagem" src="./assets/rancho-logo.png" alt="logo do rancho gastrobar">
             </a>
         </div>
         <div class="rodape__endereço">

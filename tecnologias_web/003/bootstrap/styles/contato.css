@@ -21,7 +21,6 @@
 
 .contato__container {
     display: flex;
-    
     gap: 5rem;
 }
 
@@ -54,4 +53,20 @@
     color: var(--branco);
     font-weight: 700;
     font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .contato__rancho {
+        width: 100%;
+        padding: 2rem;
+        margin: 4rem 0 4rem 0;
+    }
+
+    .contato__container {
+        flex-direction: column;
+    }
+
+    .contato-informacoes {
+        border: 0;
+    }
 }

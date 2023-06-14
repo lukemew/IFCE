@@ -30,3 +30,22 @@ background: url(../assets/dark-wood.jpg);
 .texto-destaque {
     color: var(--laranja);
 }
+
+@media screen and (max-width: 1024px) {
+
+    .sobre__rancho {
+        width: 100%;
+        padding: 4rem;
+    }
+
+    .sobre-titulo {
+        margin-bottom: 4rem;
+        font-size: 2rem;
+    }
+
+    .sobre-texto {
+        font-size: 1rem;
+    }
+    
+}
+

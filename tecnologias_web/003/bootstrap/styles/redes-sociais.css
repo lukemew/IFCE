@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 5rem;
     border-bottom: 1px solid var(--laranja) ;
     padding: 8rem;
 }
@@ -50,5 +49,44 @@
     color: var(--laranja);
     transition: 0.2s;
 }
+@media screen and (max-width: 1024px) {
 
+    .redes-sociais {
+        flex-direction: column;
+        border-bottom: 3px solid var(--laranja);
+        padding: 2rem;
+    }
+
+    .redes-sociais__item {
+        margin: 1rem;
+        width: 90vw;
+        
+    }
+    .logo__imagem {
+        width: 10%;
+    }
+
+    .texto__rede {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .redes-sociais__item {
+        width: 85%;
+        height: 85%;
+        gap: 1rem;
+    }
+
+    .logo__imagem{
+        width: 20%;
+        margin: 1rem;
+    }
+
+    .texto__rede {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
 
